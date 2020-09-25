@@ -4,9 +4,7 @@
 """
 
 ganho_hora = float(input("digite o ganho por hora: "))
-numero_horas = float(input("digite somente o numero de horas de trabalho: "))
+numero_horas = float(input("digite quantas horas voce trabalhou nesse mes: "))
 
-print("meses que vai ate dia 31: ", ganho_hora * numero_horas * 31)
-print("meses que vai ate dia 30: ", ganho_hora * numero_horas * 30)
-print("fevereiro ate dia 28: ", ganho_hora * numero_horas * 28)
-print("fevereiro ate dia 29: ", ganho_hora * numero_horas * 29)
+print("Entao...")
+print("Voce ganhou nesse mes: ",  ganho_hora * numero_horas)
