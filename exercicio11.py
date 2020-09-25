@@ -13,7 +13,7 @@ print("\n")
 
 # a)
 
-print("o produto do dobro do primeiro com metade do segundo: ", (num1*2) + (num2/2))
+print("o produto do dobro do primeiro com metade do segundo: ", (num1*2) * (num2/2))
 print("\n")
 
 # b)
